@@ -1,10 +1,10 @@
-# House Price Prediction 
+# House Price Prediction
 
 ## About this project
 
-This is my first machine learning project where I tried to predict house prices using different features from a dataset.
+This is my first machine learning project where I built a model to predict house prices based on different features like location, number of rooms, population, etc.
 
-I learned how to clean data, apply preprocessing, and train a model to make predictions. This project helped me understand how ML works in a practical way.
+I worked on understanding how data is prepared, how models are trained, and how predictions are made. This project helped me learn the complete basic ML workflow in a practical way.
 
 ---
 
@@ -19,58 +19,63 @@ I learned how to clean data, apply preprocessing, and train a model to make pred
 
 ## What this project does
 
-* Reads input data from a CSV file
-* Applies preprocessing (handling missing values, scaling, etc.)
+* Takes input data from a CSV file
 * Uses a trained model to predict house prices
-* Saves the output in a new CSV file
+* Saves the predictions into a new CSV file (`output.csv`)
 
 ---
 
 ## How to run
 
-1. Install libraries:
+1. Clone the repository
+2. Open the project folder
+3. Install required libraries:
 
-```
-pip install pandas numpy scikit-learn
-```
+   ```
+   pip install pandas numpy scikit-learn
+   ```
+4. Run the code:
 
-2. Run the code:
+   ```
+   python main.py
+   ```
 
-```
-python main.py
-```
+---
+
+## Sample input
+
+A sample file (`input.csv`) is provided to test the model.
+You can modify it with your own values if needed.
 
 ---
 
 ## Output
 
-The program generates predicted house prices and saves them in an output file.
+After running the code, the predicted house prices will be saved in `output.csv`.
 
 ---
 
 ## Note
 
-Note: The trained model file (.pkl) is not uploaded due to size limits.
-To run the project, you need to train the model first.
+The trained model file (.pkl) is not included in this repository due to size limits.
+This project mainly shows how the prediction pipeline works.
+
 ---
 
 ## What I learned
 
-* How to build an end-to-end ML project
-* Data preprocessing and pipelines
-* Model training and prediction
-* Handling real-world issues like GitHub file size limits
+* Data preprocessing and cleaning
+* Creating pipelines
+* Training different ML models
+* Evaluating models using RMSE
+* Difference between training and prediction phases
 
 ---
 
 ## Future improvements
 
-* Try better models
-* Improve accuracy
-* Build a simple UI (maybe using Streamlit)
+* Add proper training script
+* Try different models for better accuracy
+* Build a simple UI for easier use
 
 ---
-
-## Author
-
-Shreyas Shastri
