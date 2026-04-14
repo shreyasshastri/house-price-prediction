@@ -50,8 +50,8 @@ The program generates predicted house prices and saves them in an output file.
 
 ## Note
 
-I have not uploaded the dataset and model files because they are large in size and GitHub has limits.
-
+Note: The trained model file (.pkl) is not uploaded due to size limits.
+To run the project, you need to train the model first.
 ---
 
 ## What I learned
